@@ -35,7 +35,7 @@ URL-REGEX,^http(s)://api.bjxkhc.com/index.php/app/ios/ver/index_ios$,REJECT
 URL-REGEX,^http(s)://api.bjxkhc.com/index.php/app/ios/ads/index,REJECT-TINYGIF
 [URL Rewrite]
 # > TikTok 解锁
-(?<=_region=)CN(?=&) JP 307
+(?<=_region=)CN(?=&) TW 307
 (?<=&app_version=)16..(?=.?.?&) 1 307
 (?<=\?version_code=)16..(?=.?.?&) 1 307 
 # > 抖音 去广告&水印
