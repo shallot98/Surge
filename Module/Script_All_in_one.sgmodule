@@ -219,12 +219,6 @@ JAV101.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent
 #xiaoshuimian.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,type=http-response,pattern=^https:\/\/api\.psy-1\.com\/cosleep\/user\/info
 # 蜗牛睡眠会员（by 黑黑酱）
 #wnsm.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wnsm.js,type=http-response,pattern=^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get
-# 西窗烛 （By 黑黑酱）
-xcz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js,type=http-response,pattern=^https:\/\/avoscloud\.com\/1\.1\/users\/
-# > 美颜相机一次性解锁内购（by黑黑酱）
-#myxj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js,type=http-response,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json
-# Fit健身会员 （by黑黑酱）
-fit.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fit.js,type=http-response,pattern=^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo
 # > LTribe
 # > 万里影视 无限时常（by LTribe）
 Wanliyingshi.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Wanliyingshi.js,type=http-response,pattern=^http?:\/\/.*\.arten.cn/login/login
@@ -263,12 +257,8 @@ mryy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.c
 Wps.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
 # > 菜谱大全解锁vip (By @photonmang)
 cpdq.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js,type=http-response,pattern=https?:\/\/api\.jiaonizuocai\.com
-# > 头脑吃鸡 (By chavyleung)
-tncj.min.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tncj/tncj.min.js,type=http-response,pattern=^https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz)
 # > Pear雪梨 unlock vip
 pear.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js,type=http-response,pattern=^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail)
-# > 克拉壁纸  解锁付费壁纸 (By @Dachaw)
-clarity.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/clarity.js,type=http-response,pattern=^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll)
 # > Peak 解锁Pro
 peak.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/peak.js,type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?
 # > IT之家 去新闻列表广告
@@ -282,7 +272,10 @@ qrxs.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.c
 kkyy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/kkyy.js,type=http-response,pattern=^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php
 # 飒漫画 (By @u18888)
 Smh.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Smh.js,type=http-response,pattern=^https:\/\/m\.samh\.xndm\.tech\/userapi\/info\/v1\/getuserinfo
-
+# Chavy box (多账号Cookie保存切换)
+# 访问: https://8.8.8.8/home管理
+Chavy box = type=http-request,pattern=^https://8.8.8.8/api,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js,requires-body=true,max-size=0
+Chavy box = type=http-response,pattern=^https://8.8.8.8/(home|sub|app|log\/),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js,requires-body=true,max-size=0
 
 
 [MITM]
