@@ -214,14 +214,14 @@ async function post_data(d) {
                         if(app_monitor.hasOwnProperty(x.trackId)){
                             if(JSON.stringify(app_monitor[x.trackId])!==JSON.stringify(infos[x.trackId])){
                                 if(x.version!==app_monitor[x.trackId].v){
-                                    notifys.push(`${flag(k)}🧩${x.trackName}:升级【${x.version}】`)
+                                    notifys.push(`${flag(k)}🔔${x.trackName}:升级【${x.version}】`)
                                 }
                                 if(x.formattedPrice!==app_monitor[x.trackId].p){
                                     notifys.push(`${flag(k)}💰${x.trackName}:价格【${x.formattedPrice}】`)
                                 }
                             }}
                         else{
-                            notifys.push(`${flag(k)}🧩${x.trackName}:版本【${x.version}】`);
+                            notifys.push(`${flag(k)}🔔${x.trackName}:版本【${x.version}】`);
                             notifys.push(`${flag(k)}💰${x.trackName}:价格【${x.formattedPrice}】`)
                         }
                     }));
