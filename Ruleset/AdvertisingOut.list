@@ -1,8 +1,8 @@
-# 咪咕视频
-host-suffix, ad.cmvideo.cn, reject
-host-suffix, ggc.cmvideo.cn, reject
-host-suffix, ggic03.miguvideo.com, reject
-host-suffix, ggmk.miguvideo.com, reject
-host-suffix, ggv.cmvideo.cn, reject
-host-suffix, ggx.cmvideo.cn, reject
-host-suffix, ggx03.miguvideo.com, reject
+# > 咪咕视频#
+ad.cmvideo.cn,
+ggc.cmvideo.cn,
+ggic03.miguvideo.com,
+ggmk.miguvideo.com,
+ggv.cmvideo.cn,
+ggx.cmvideo.cn,
+ggx03.miguvideo.com,
