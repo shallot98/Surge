@@ -6,3 +6,29 @@ DOMAIN-SUFFIX, ggmk.miguvideo.com
 DOMAIN-SUFFIX, ggv.cmvideo.cn
 DOMAIN-SUFFIX, ggx.cmvideo.cn
 DOMAIN-SUFFIX, ggx03.miguvideo.com
+
+# 美团
+DOMAIN-SUFFIX, flowplus.meituan.net
+DOMAIN-SUFFIX, analytics.meituan.net
+DOMAIN-SUFFIX, meituan.xn
+DOMAIN-SUFFIX, meituan.yoga
+DOMAIN-SUFFIX, meituangov.cn
+DOMAIN-SUFFIX, report.meituan.com
+DOMAIN-SUFFIX, wmlog.meituan.com
+DOMAIN-SUFFIX, ad.e.waimai.sankuai.com
+DOMAIN-SUFFIX, mads.meituan.com
+DOMAIN-SUFFIX, dreport.meituan.net
+DOMAIN-SUFFIX, d.meituan.net
+
+# QQ音乐广告
+DOMAIN-SUFFIX, tmeadcomm.y.qq.com
+DOMAIN-SUFFIX, ad.tencentmusic.com
+DOMAIN-SUFFIX, adstats.tencentmusic.com
+DOMAIN-SUFFIX, tmead.y.qq.com
+DOMAIN-SUFFIX, rqd.qq.com
+DOMAIN-SUFFIX, wup.imtt.qq.com
+DOMAIN-SUFFIX, gdt.qq.com
+DOMAIN-SUFFIX, android.rqd.qq.com
+DOMAIN-SUFFIX, e.qq.com
+DOMAIN-SUFFIX, beacon.qq.com
+DOMAIN-SUFFIX, v.gdt.qq.com
