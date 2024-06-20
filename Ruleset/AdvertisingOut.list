@@ -1,8 +1,8 @@
-# > 咪咕视频#
-ad.cmvideo.cn,
-ggc.cmvideo.cn,
-ggic03.miguvideo.com,
-ggmk.miguvideo.com,
-ggv.cmvideo.cn,
-ggx.cmvideo.cn,
-ggx03.miguvideo.com,
+# 咪咕视频
+DOMAIN-SUFFIX, ad.cmvideo.cn
+DOMAIN-SUFFIX, ggc.cmvideo.cn
+DOMAIN-SUFFIX, ggic03.miguvideo.com
+DOMAIN-SUFFIX, ggmk.miguvideo.com
+DOMAIN-SUFFIX, ggv.cmvideo.cn
+DOMAIN-SUFFIX, ggx.cmvideo.cn
+DOMAIN-SUFFIX, ggx03.miguvideo.com
